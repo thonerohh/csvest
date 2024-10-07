@@ -7,7 +7,8 @@ import subprocess
 
 # 4 ghz, asm to python somehow 1.07 * 600
 
-LOAD = ["test1.csv","test2.csv","test3.csv", "test4.csv"]
+LOAD = ["test1.csv","test2.csv","test3.csv", "test4.csv", "test40.csv","test41.csv","test42.csv","test43.csv","test44.csv","test4.csv","test5_content__product.csv","test5_content__service.csv","test5_content__user.csv","test5_content__user_extended.csv","test5_data__ids.csv","test5_data_categories.csv","test5_product.csv","test5_service.csv","test5_service__extended.csv","test5_user__data.csv","test5_user__data_extended.csv","test5_user__extended_locker.csv","test5_user__locker.csv"]
+
 
 time_start3 = time.time()
 
@@ -82,4 +83,4 @@ for T in LOAD:
 
 time_end5 = time.time()
 
-print(time_end - time_start, time_end2 - time_start2, time_end3 - time_start3, time_end4 - time_start4, time_end5, time_start5)
+print(time_end - time_start, time_end2 - time_start2, time_end3 - time_start3, time_end4 - time_start4, time_end5 - time_start5)
